@@ -334,7 +334,7 @@ var SignaturePad = (function (document) {
 
     var Point = function (x, y, time) {
         this.x = x;
-        this.y = y;
+        this.y = y-10;
         this.time = time || new Date().getTime();
     };
 
