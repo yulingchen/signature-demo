@@ -110,6 +110,7 @@ var SignaturePad = (function (document) {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         this._reset();
+        this.fromDataURL('../images/bg.png');
     };
 
     SignaturePad.prototype.toDataURL = function (imageType, quality) {
