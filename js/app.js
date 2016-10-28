@@ -22,9 +22,9 @@ resizeCanvas();
 
 signaturePad = new SignaturePad(canvas, {
     penColor: "#cdad41",
-    dotSize:3,
-    minWidth: 1,
-    maxWidth: 2
+    dotSize: 1.2,
+    minWidth: 0.6,
+    maxWidth: 0.6
 });
 
 clearButton.addEventListener("click", function (event) {

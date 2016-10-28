@@ -376,8 +376,8 @@ var SignaturePad = (function (document) {
 
     Bezier.prototype._point = function (t, start, c1, c2, end) {
         return          start * (1.0 - t) * (1.0 - t)  * (1.0 - t)
-               + 3.0 *  c1    * (1.0 - t) * (1.0 - t)  * t
-               + 3.0 *  c2    * (1.0 - t) * t          * t
+               + 1.0 *  c1    * (1.0 - t) * (1.0 - t)  * t
+               + 1.0 *  c2    * (1.0 - t) * t          * t
                +        end   * t         * t          * t;
     };
 
